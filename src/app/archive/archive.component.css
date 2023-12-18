@@ -1,0 +1,17 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.tasks .task {
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'deadline actions' 'title title';
+  grid-row-gap: 10px;
+}
